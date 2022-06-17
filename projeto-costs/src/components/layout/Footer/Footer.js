@@ -17,7 +17,7 @@ const Footer = () => {
         </li>
       </ul>
       <p className={styles.copy_right}>
-        <span>Costs</span> &copy; 2021
+        <span>Projeto Costs</span> &copy; 2022
       </p>
     </footer>
   )

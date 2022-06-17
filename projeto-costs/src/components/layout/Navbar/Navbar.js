@@ -6,7 +6,7 @@ import logo from "../../../img/costs_logo.png"
 
 const Navbar = () => {
   return (
-    <div className={styles.navbar}>
+    <nav className={styles.navbar}>
       <Container>
         <Link to="/">
           <img src={logo} alt="Costs" />
@@ -26,7 +26,7 @@ const Navbar = () => {
           </li>
         </ul>
       </Container>
-    </div>
+    </nav>
   );
 }
 
